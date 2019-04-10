@@ -1,0 +1,14 @@
+version: '3.0'
+services:
+  drishti-haproxy:
+    image: beapen/drishti-haproxy:latest
+    ports:
+      - "8080:8080"
+    depends_on:
+      - phis-dw
+
+  phis-dw:
+    image: beapen/fhir:latest
+    env_file:
+      - resource-server.env
+
