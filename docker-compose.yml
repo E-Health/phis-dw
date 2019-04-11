@@ -12,3 +12,10 @@ services:
     env_file:
       - resource-server.env
 
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.0.0
+    env_file:
+      - resource-server.env
+    depends_on:
+      - phis-dw
+
