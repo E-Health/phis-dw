@@ -1,6 +1,6 @@
 # :hospital: Public Health Data Warehouse Framework on FHIR
 
-* Work in progress. Do not use.
+## Deprecated. Moved to: [https://github.com/E-Health/fhir-server-phis-dw](https://github.com/E-Health/fhir-server-phis-dw) 
 
 ## About
 
